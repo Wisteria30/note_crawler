@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "note-crawler"
+version = "0.1.0"
+description = ""
+authors = ["Wisteria30 <skymars0327@yahoo.co.jp>"]
+readme = "README.md"
+packages = [{include = "note_crawler"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+tqdm = "^4.66.1"
+selenium = "^4.15.2"
+ipython = "^8.17.2"
+lxml = "^4.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
